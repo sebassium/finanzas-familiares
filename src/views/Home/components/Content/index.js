@@ -21,11 +21,6 @@ export default () => {
             Administración del dinero, manejo de los créditos y deudas, destructores de patrimonio, tarjetas de crédito, educación financiera para los hijos, Inversión en la primer vivienda, Apalancamiento financiero.
           </p>
 
-          <h2 className="font-bold text-xl">1. Inteligencia Financiera:</h2>
-          <p className="text-base mb-4">
-            Administración del dinero, manejo de los créditos y deudas, destructores de patrimonio, tarjetas de crédito, educación financiera para los hijos, Inversión en la primer vivienda, Apalancamiento financiero.
-          </p>
-
           <h2 className="font-bold text-xl">2. Consciencia de Riqueza:</h2>
           <p className="text-base mb-4">
             Actos creativos conscientes, patrones mentales del dinero, improntas emocionales de manejo del dinero.
