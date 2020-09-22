@@ -1,13 +1,15 @@
 import React, { Fragment } from "react";
-import { Header, Values, Description, Footer, MoreDescription } from "./components";
+import {Header, Webinar1, Webinar2, Content, Footer, Values, Navbar} from "./components";
 
 export default () => {
   return (
     <Fragment>
+        <Navbar />
       <Header />
-      <Description />
-      <MoreDescription />
-      <Values />
+        <Webinar1 />
+        <Content />
+        <Values />
+        <Webinar2 />
       <Footer />
     </Fragment>
   );
