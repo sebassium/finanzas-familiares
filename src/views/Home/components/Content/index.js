@@ -38,7 +38,7 @@ export default () => {
 
           <h2 className="font-bold text-xl">4. Tributario:</h2>
           <p className="text-base mb-4">
-            Planeación tributaria, optimizar los impuestos, UGP.
+            Planeación tributaria, optimizar los impuestos, UGPP.
           </p>
 
           <h2 className="font-bold text-xl">5. Emocional:</h2>

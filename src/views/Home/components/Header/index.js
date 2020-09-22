@@ -8,7 +8,7 @@ export default () => {
         <div className="md:w-1/2 pt-16">
           <h1 className="font-bold text-6xl leading-none mb-6">Finanzas Familiares</h1>
           <p className="text-3xl mb-6">
-            Programa de entrenamientos financieros para que la tu familia sea próspera.
+            Programa de entrenamientos financieros para que tu familia sea próspera.
           </p>
             <Link to="#video" scroll={el => el.scrollIntoView({ behavior: 'smooth' })}>
           <button className="text-xl bg-teal-400 hover:bg-teal-500 text-white py-2 px-4 rounded">Ver más</button>
