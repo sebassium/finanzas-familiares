@@ -12,7 +12,7 @@ export default () => {
         </div>
          <div className="w-2/7 flex justify-center pt-10">
            <img
-               className="w-100 lg:max-w-3xl"
+               className="w-100 xl:max-w-3xl"
                src={'https://res.cloudinary.com/sebashr20/image/upload/q_auto:low/v1600740931/wmnaeehyim0sqpyocd2i.png'}
                alt=''
            />
