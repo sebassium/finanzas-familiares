@@ -1,22 +1,28 @@
 import React from "react";
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default () => {
   return (
-      <div className="mx-auto lg:flex px-6 lg:px-16 items-center h-screen">
-        <div className="w-5/7 pt-16">
+      <div className="mx-auto min-h-screen md:flex px-4 lg:px-16 items-center justify-center">
+
+        <div className="md:w-1/2 pt-16">
           <h1 className="font-bold text-6xl leading-none mb-6">Finanzas Familiares</h1>
           <p className="text-3xl mb-6">
             Programa de entrenamientos financieros para que la tu familia sea próspera.
           </p>
-          <button className="text-3xl bg-teal-400 hover:bg-teal-500 text-white font-bold py-2 px-4 rounded">Ver más</button>
-        </div>
-         <div className="w-2/7 flex justify-center pt-10">
+            <Link to="#video" scroll={el => el.scrollIntoView({ behavior: 'smooth' })}>
+          <button className="text-xl bg-teal-400 hover:bg-teal-500 text-white py-2 px-4 rounded">Ver más</button>
+            </Link>
+            </div>
+
+         <div className="md:w-1/2 pb-12">
            <img
-               className="w-100 xl:max-w-3xl"
+               className=""
                src={'https://res.cloudinary.com/sebashr20/image/upload/q_auto:low/v1600740931/wmnaeehyim0sqpyocd2i.png'}
                alt=''
            />
           </div>
+
       </div>
   );
 };
