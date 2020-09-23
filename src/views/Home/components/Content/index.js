@@ -40,7 +40,7 @@ export default () => {
 
           <h2 className="font-bold text-xl">5. Emocional:</h2>
           <p className="text-base mb-4">
-            Apegos, miedos, rencores, relación con la genealogía familiar, Honrar a Papá y Mamá, y más.
+            Liberar apegos, miedos y rencores;  relación con la genealogía familiar; honrar a papá y a mamá y mucho más.
           </p>
 
           <a href={formUrl} target='_blank' rel="noopener noreferrer">

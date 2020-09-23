@@ -10,6 +10,7 @@ export default () => {
         <Content />
         <Webinar />
         <Values />
+        {/*<Team />*/}
       <Footer />
     </Fragment>
   );
