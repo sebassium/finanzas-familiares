@@ -7,10 +7,11 @@ export default () => {
   return (
     <div className="py-20 border-b-2">
       <div className="mx-auto h-full lg:flex px-4 lg:px-16 items-center justify-center">
-        <div className="lg:w-1/2 lg:mr-8" >
+        <div className="lg:w-1/2 lg:mr-8 flex justify-center" >
           <img
               src={contentUrl}
               alt=''
+              style={{ maxHeight: '35rem'}}
           />
 
         </div>
