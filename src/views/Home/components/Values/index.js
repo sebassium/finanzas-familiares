@@ -15,10 +15,11 @@ export default () => {
           </p>
         </div>
 
-        <div className="lg:w-1/2" >
+        <div className="lg:w-1/2 flex justify-center" >
           <img
               src={logoUrl}
               alt=''
+              style={{ maxHeight: '35rem'}}
           />
         </div>
       </div>
