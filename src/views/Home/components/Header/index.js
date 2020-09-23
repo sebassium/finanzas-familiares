@@ -8,7 +8,7 @@ export default () => {
   return (
       <div className="mx-auto min-h-screen md:flex px-4 lg:px-16 items-center justify-center">
 
-        <div className="md:w-2/5 pt-16">
+        <div className="md:w-2/5 pt-24 lg:pt-0">
           <h1 className="font-bold text-6xl leading-none mb-6">Finanzas Familiares</h1>
           <p className="text-3xl mb-6 leading-none">
             Programa de entrenamientos financieros para que tu familia sea próspera.
@@ -18,7 +18,7 @@ export default () => {
             </Link>
             </div>
 
-         <div className="md:w-3/5 pb-12">
+         <div className="md:w-3/5 pb-12 mt-12 lg:mt-0">
            <img
                src={bgUrl}
                alt=''
