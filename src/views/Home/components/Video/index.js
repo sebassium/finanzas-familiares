@@ -9,7 +9,7 @@ export default () => {
   return (
 
     <div className="py-20 px-6 text-center bg-teal-400 px-4 lg:px-16" id='video'>
-      <h1 className="font-bold text-5xl text-center mb-6 text-white">Inscríbete a nuestro webinar informativo</h1>
+      <h1 className="font-bold text-5xl text-center mb-8 text-white leading-none">Inscríbete a nuestro webinar informativo</h1>
       <div className="mx-auto h-full lg:flex lg:justify-between xl:px-64 my-6">
          <ReactPlayer
             url={videoUrl}

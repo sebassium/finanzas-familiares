@@ -2,13 +2,14 @@ import React from "react";
 
 export default () => {
   const formUrl = 'https://forms.gle/2592Zt6XZeZdkHGK6';
+  const contentUrl = 'https://res.cloudinary.com/sebashr20/image/upload/q_auto:low/v1600871902/atiibruhzrtdohgwv6y8.png';
+
   return (
     <div className="py-20 border-b-2">
       <div className="mx-auto h-full lg:flex px-4 lg:px-16 items-center justify-center">
-        <div className="lg:w-1/2" >
+        <div className="lg:w-1/2 lg:mr-8" >
           <img
-              className=""
-              src={'https://res.cloudinary.com/sebashr20/image/upload/q_auto:low/v1600805518/q7jbskbaenaw08tp2hfy.png'}
+              src={contentUrl}
               alt=''
           />
 
