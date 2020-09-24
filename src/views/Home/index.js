@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import {Header, Video, Webinar, Content, Footer, Values, Navbar} from "./components";
+import {Header, Video, Webinar, Content, Footer, Values, Navbar, Team} from "./components";
 
 export default () => {
   return (
@@ -10,7 +10,7 @@ export default () => {
         <Content />
         <Webinar />
         <Values />
-        {/*<Team />*/}
+        <Team />
       <Footer />
     </Fragment>
   );
